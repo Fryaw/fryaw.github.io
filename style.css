@@ -1,0 +1,162 @@
+/* Universal Styles */
+* {
+    padding: 0;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("../images/circuit-board.avif");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.main {
+    position: relative;
+    top: 80px;
+}
+ 
+ header ul li {
+    display: inline-block;
+    margin-right: 20px;
+ }
+
+header {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: aliceblue;
+    opacity: 0.8;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 15px;
+    height: 60px;
+    width: 60px;
+}
+
+.title {
+    width: 100%;
+    font-size: 40px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.inline-title {
+    padding: 10px;
+    border: 2px solid white;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: black;
+    color: lightblue;
+    font-style: oblique;
+}
+
+.inline-title #leading {
+    color: lightblue;
+}
+
+.inline-title #technology {
+    color: blue;
+}
+
+.about-us, .news {
+    margin: 30px 20px;
+}
+
+.about-us {
+    color: aliceblue;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color:aliceblue;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.news-items {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.item {
+    max-width: 450px;
+    margin: 10px;
+    flex: 1 1 40%;
+    padding: 20px;
+    height: 60%;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+} 
+
+.item h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.item h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.item img {
+    display:block;
+    margin: 20px auto;
+    width: 60%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.item p {
+    margin-bottom: 20px;
+}
+
+.item .content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer p, footer h5 {
+    display: inline-block;
+}
+
+footer {
+    position: relative;
+    top: 60px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    padding: 30px;
+    text-align: center;
+}
+
+footer h5 {
+    margin-left: 55px;
+}
